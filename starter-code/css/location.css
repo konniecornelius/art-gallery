@@ -17,7 +17,7 @@ li{
 #map{
 	width: 100%;
 }
-.main__section1__location{
+.main-section1-location{
   width: 260px;
   height: 72px;
   background: #444444;
@@ -32,13 +32,13 @@ li{
     height: 24px;
     padding: 24px;
 }
-.main__section1__location:hover .location-arrow { 
+.main-section1-location:hover .location-arrow { 
 	background: #444444;
 }
- .main__section1__location:hover  {
+ .main-section1-location:hover  {
    	background:#D5966C ;
    }
-.main__section1__location-link{
+.main-section1-location-link{
     font-size: 20px;
     line-height: 24px;
     font-weight: 800;
@@ -59,7 +59,7 @@ main{
 	padding-left: 4%;
 	margin-top: -5px;
 }
-.main__header{
+.main-header{
 	font-family: 'Big Shoulders Display';
 	font-style: normal;
 	font-weight: 900;
@@ -70,7 +70,7 @@ main{
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
-.main__header__sub{
+.main-header-sub{
 	font-family: 'Big Shoulders Display';
 	font-style: normal;
 	font-weight: 900;
@@ -95,7 +95,7 @@ ul>*{
 	color: #FFFFFF;
 
 }
-.main__para{
+.main-para{
 	font-family: 'Outfit';
 	font-style: normal;
 	font-weight: 300;
@@ -107,7 +107,7 @@ ul>*{
 }
 footer{
 	padding: 7%;
-	background: #D5966C;;
+	background: #D5966C;
 }
 .footer-header{
 	font-size: 28px;
@@ -129,6 +129,10 @@ footer{
 .media>*{
 	margin-right: 10px;
 }
+
+.media-icon:hover{
+	background: white;
+}
 @media only screen and (min-width: 393px) {
 	
 	#map{
@@ -141,14 +145,14 @@ footer{
 		content:  url("../assets/tablet/image-map@2x.png");
 		width: 100vw;
 	}
-	.main__section1__location{
+	.main-section1-location{
 		margin-left: 5%;
 	}
 	main{
 		display: flex;
 		justify-content: space-between;
 	}
-	.main__section{
+	.main-section{
 		margin-left: 80px;
 		padding-top: 30px;
 	}
@@ -173,10 +177,10 @@ footer{
 		content:  url("../assets/desktop/image-map@2x.png");
 		width: 100vw;
 	}
-	.main__section1__location{
+	.main-section1-location{
 		margin-left: 10%;
 	}
-	.main__header{
+	.main-header{
 		margin-left: auto;
 		margin-right: auto;
 		font-size: 70px;
@@ -184,7 +188,7 @@ footer{
 		line-height: 70px;
 
 	}
-	.main__para{
+	.main-para{
 		width: 540px;
 	}
 	.footer-para{
